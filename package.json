@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "marked": "npx marked -i README.md -o index.html",
-    "start": "npx serve",
+    "start": "node api.js && npx serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
